@@ -1,0 +1,148 @@
+/***************************TAG SELECTORS***********************************/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+hr {
+  border-color: grey;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 3%;
+  margin:100px auto 100px auto;
+}
+
+/***************************CLASS SELECTORS***********************************/
+
+.top-container {
+  background-color: #d6e5fa;
+  padding-top: 50px;
+  position: relative;
+}
+
+.middle-container{
+  margin:100px 0 100px 0;
+}
+
+.intro{
+  width: 30%;
+  margin:auto;
+}
+
+.contact-message{
+  width:40%;
+  margin:40px auto 60px auto;
+}
+
+.skill-row {
+  margin: 100px auto 0 auto;
+  width: 50%;
+  text-align: left;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #11cdd4, #11999e);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 20px;
+	color:#ffffff;
+	padding:10px 20px 10px 20px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30E3CB, #2bc4ad);
+	background-color:#11999e;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px 0;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding:20px 0;
+}
+
+.profile_pic {
+  height: 200px;
+  border-radius: 100%;
+}
+
+.profile_pic:hover {
+  transform: scale(1.2);
+}
+
+.computer_img {
+  height: 200px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.purple {
+  height: 200px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+
+.purple:hover {
+  transform: scale(1.2);
+}
+
+.top-cloud {
+  position: absolute;
+  left: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 300px;
+  bottom: 300px;
+}
+
+/****************************ID SELECTORS********************************/
